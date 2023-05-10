@@ -117,6 +117,7 @@ div{
         object-position:cover;
         border-radius: 4px;
         
+        
     }
     &:hover{
         padding: 1px;
