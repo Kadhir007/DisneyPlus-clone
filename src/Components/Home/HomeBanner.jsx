@@ -56,6 +56,7 @@ const CarouselImgs=styled(Slider)`
 
 margin-left: 40px;
 margin-right: 40px;
+
 ul li button{
     &::before{
         font-size: 11px;
@@ -110,7 +111,7 @@ div{
                     rgb(0 0 0/75%) 0px 16px 10px -10px;
     cursor: default;
     img{
-        width: 99%;
+        width: 100%;
         height: 100%;
         object-fit: cover;
         object-position:cover;

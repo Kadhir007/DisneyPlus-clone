@@ -8,7 +8,8 @@
 
     /* Fixing the overflow bug */
     @media screen and (max-width:636px) {
-        overflow-x: hidden;
+     
+       
     }  
     
     

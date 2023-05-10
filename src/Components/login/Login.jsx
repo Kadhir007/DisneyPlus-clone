@@ -26,7 +26,7 @@ function Login() {
 const Main =styled.main`
 height:auto;
 height:auto;
-overflow:auto;
+overflow-y:hidden;
 
 `;
 
