@@ -170,6 +170,9 @@ h1{
     @media screen and (max-width :550px){
         font-size: 0.9rem;
     }
+    @media screen and (max-width :631px){
+        margin-left: 5px;
+    }
 
 
 }
@@ -180,11 +183,27 @@ const Carousel=styled(Slider)`
 width: 100%;
 margin-left: 40px;
 margin-right: 40px;
+/* Button disappear margin adjust */
+@media screen and (max-width :631px){
+        margin-left: 5px;
+        .slick-next{
+          opacity: 0;
+        }
+        .slick-prev{
+          opacity: 0;
+        }
+        
+    }
 
 ul li button{
+
+
+
     &::before{
         font-size: 11px;
-        color: rgb(158,158,171)
+        color: rgb(158,158,171);
+      
+    
 
         
     }

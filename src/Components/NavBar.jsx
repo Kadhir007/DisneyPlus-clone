@@ -175,6 +175,14 @@ justify-content: flex-start;
 width: 101px;
 height: auto;
 object-position: center;
+@media screen and (max-width :376px){
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        justify-content: center
+        
+        
+    }
     img{
         width: 100%;
         height: auto;
@@ -196,6 +204,12 @@ flex-shrink: 0;
 flex-wrap: row wrap;
 margin-right: auto;
 margin-left: 3rem;
+@media screen and (max-width :598px){
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        
+    }
 
 li{
     text-decoration: none;

@@ -5,7 +5,14 @@
     font-weight: 100 !important;
     font-family: 'Hind',sans-serif;
     text-decoration: none;
+
+    /* Fixing the overflow bug */
+    @media screen and (max-width:636px) {
+        overflow-x: hidden;
+    }  
     
+    
+ 
 }
 html{
     scroll-behavior: smooth;

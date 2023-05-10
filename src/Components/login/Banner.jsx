@@ -26,6 +26,7 @@ function banner() {
   )
 }
 const Background = styled.section`
+
 background: url(${b1});
 height:95vh;
 background-position: center;
