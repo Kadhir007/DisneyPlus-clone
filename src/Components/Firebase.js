@@ -1,12 +1,12 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA5vmY-Mmb6tdOv_hL8yDJiMbnWiFp992Y",
+  apiKey: "sad.,fn21231303213sdf",
   authDomain: "bring-me-disney.firebaseapp.com",
   projectId: "bring-me-disney",
   storageBucket: "bring-me-disney.appspot.com",
-  messagingSenderId: "71608001517",
-  appId: "1:71608001517:web:61854f75d44c5dba927de4"
+  messagingSenderId: "73135430354",
+  appId: "1:asdas23135adsf/lajf"
 };
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 const dbConfig = firebaseApp.firestore();
